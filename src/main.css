@@ -1,0 +1,49 @@
+
+:root{
+
+    --secondary:lightgray;
+}
+.rounded-primary{
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+
+.rounded-danger{
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.rounded-success{
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+
+.rounded-secondary{
+    border-radius: 5px;
+    border: 1px solid var(--secondary);
+}
+
+.rounded-large{
+    border-radius: 10px;
+  
+}
+
+.p-3{
+ padding: 3rem;
+}
+
+.p-1{
+    padding: 1rem;
+   }
+
+.m-2{
+    margin: 2rem;
+}
+   
+
+.shadow-secondary{
+    box-sizing: border-box;
+    box-shadow: 0 0 10px var(--secondary)
+}
